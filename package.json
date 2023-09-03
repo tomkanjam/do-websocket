@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.3",
-    "ws": "^8.5.0",
-    "@logtail/node": "^0.4.6"
-}
+    "@logtail/node": "^0.4.6",
+    "express": "^4.18.2",
+    "ws": "^8.13.0"
+  }
 }
