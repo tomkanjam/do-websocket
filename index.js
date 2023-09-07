@@ -82,7 +82,7 @@ function updateBucket(trade) {
 }
 
 
-const binanceWS = new WebSocket('wss://fstream.binance.com/stream?streams=btcbusd@aggTrade/btcusdt@aggTrade');
+const binanceWS = new WebSocket('wss://fstream.binance.com/stream?streams=btcusdt@aggTrade');
 
 binanceWS.on('message', (message) => {
     try {
